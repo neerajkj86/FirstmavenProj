@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Functional Suite]">
+  <test thread-count="5" name="Login Test(failed)">
+    <classes>
+      <class name="testngLearning.softassertion">
+        <methods>
+          <include name="SoftAssertion"/>
+        </methods>
+      </class> <!-- testngLearning.softassertion -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+  <test thread-count="5" name="Validate Title Test(failed)">
+    <classes>
+      <class name="testngLearning.DependencyTest2">
+        <methods>
+          <include name="A"/>
+          <include name="B"/>
+          <include name="C"/>
+          <include name="D"/>
+        </methods>
+      </class> <!-- testngLearning.DependencyTest2 -->
+    </classes>
+  </test> <!-- Validate Title Test(failed) -->
+  <test thread-count="5" name="Dependency Test(failed)">
+    <classes>
+      <class name="testngLearning.DependencyTest">
+        <methods>
+          <include name="A"/>
+          <include name="C"/>
+          <include name="B"/>
+        </methods>
+      </class> <!-- testngLearning.DependencyTest -->
+    </classes>
+  </test> <!-- Dependency Test(failed) -->
+</suite> <!-- Failed suite [Functional Suite] -->

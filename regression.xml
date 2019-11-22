@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+<listners>
+<listner class-name""/>
+
+</listners>
+  <test name="RegressionTest">
+    <classes>
+      <class name="regressionpack.testcase1"/>
+      <class name="regressionpack.testcase2"/>
+      <class name="regressionpack.testcase3"/>
+    </classes>
+  </test> 
+</suite> 

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sniff Suite">
+  <test name="Login Test">
+    <classes>
+      <class name="sniffPack.testcase1"/>
+      
+    </classes>
+  </test> 
+  
+   <test name="SRM Validation">
+    <classes>
+      
+      <class name="sniffPack.testcase2"/>
+      
+    </classes>
+  </test> 
+  
+   <test name="XAG L3">
+    <classes>
+      <class name="sniffPack.testcase3"/>
+     
+    </classes>
+  </test> 
+</suite> 

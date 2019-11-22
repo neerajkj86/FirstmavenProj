@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Functional Suite">
+	<test name="Login Test">
+	<parameter name = "browser" value ="firfox"></parameter>
+		<classes>
+			<class name="testngLearning.softassertion" />
+
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Validate Title Test">
+		<classes>
+
+			<class name="testngLearning.DependencyTest2" />
+
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Dependency Test">
+		<classes>
+
+			<class name="testngLearning.DependencyTest" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

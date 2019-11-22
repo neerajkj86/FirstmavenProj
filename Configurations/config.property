@@ -1,0 +1,7 @@
+ChromeDriver =C:\\Selenium\\driver\\chromedriver75\\chromedriver.exe
+
+IEDriver =
+
+URL=https://www.google.com/
+
+ExcelPath=
